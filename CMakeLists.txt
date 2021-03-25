@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.17)
+project(ZMQSecurityPattern C)
+
+set(CMAKE_C_STANDARD 99)
+link_libraries("-lczmq")
+add_executable(GrassLand grassland.c )
+add_executable(Strawhouse strawhouse.c)
+add_executable(Woodhouse woodhouse.c)
+add_executable(Stonehouse stonehouse.c)
+add_executable(Ironhouse ironhouse.c)
